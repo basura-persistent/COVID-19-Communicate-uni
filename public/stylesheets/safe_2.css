@@ -1,0 +1,131 @@
+.main_page_body {
+    background-image: url("https://imengine.prod.srp.navigacloud.com/?uuid=9DB51AF5-3715-448A-A4AC-3C79FC007440&type=primary&q=72&width=1024");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.menu {
+    color: white;
+}
+
+#auth_admin {
+    right: 150 px;
+    border: 3px solid blue;
+}
+
+.content{
+	padding-top: 10%;
+	text-align: top;
+    color: black;
+             
+}
+
+.outer {
+    /*border-style: solid;*/
+    width: 85%;
+    /*border-color: #045c93;*/
+    margin: auto;
+    min-width: 800px;
+    }
+    
+    .header {
+    border-style: solid;
+    border-color: #045c93;
+    background-color:#045c93;
+    }
+    
+    .headerConstruction {
+    border-style: solid;
+    border-color: orange;
+    background-color:orange;
+    }
+    
+    .header h1 {
+    text-align: center;
+    color: white;
+    }
+    
+    .header h2 {
+    text-align: center;
+    color: white;
+    }
+    
+    .headerConstruction h1 {
+    text-align: center;
+    color: white;
+    }
+    
+    .menuAll {
+    /*border-style: solid;*/
+    /*background-color:pink;*/
+    float: left;
+    width: 15%;
+    margin: 10px;
+    min-width: 190px;
+    padding: 1em;
+    }
+    
+    .menuAll ul {
+    list-style-type: none;
+    padding: 0px;
+    }
+    
+    .content-paragraph {
+    /*border-style: solid;*/
+    float: left;
+    width: 65%;
+    min-width: 520px;
+    padding: 1.5em;
+    }
+    
+    .footer {
+    border-style: solid;
+    background-color:green;
+    clear:both;
+    }
+    
+    a {
+    color: black;
+    }
+    
+    .content-paragraph h2 {
+    margin-left: 255px;
+    }
+    
+    .content-paragraph-usecase3 h3{
+    margin-left: 420px;
+    padding-top: 15px;
+    }
+    
+    .content-paragraph form {
+    display: inline-block;
+    }
+    
+    .inputHeader{
+        padding-bottom: 5px;
+    }
+    .content-paragraph-usecase3 form {
+    display: inline-block;
+    padding-left: 4.5em;
+    margin-top: 15px;
+    }
+    
+    form
+    {
+    display: inline-block;
+    margin-left: 160px;/*move text box to the right side*/
+    }
+    
+    textarea {
+    width: 400px;
+    height: 250px;
+    }
+    
+    label{
+    display: block;
+    }
+
+
+

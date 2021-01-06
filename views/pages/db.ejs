@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <div class = 'header'>
+  <h1>THE SSU COVID-19 REGISTRY</h1>
+    <h1>Past Announcements</h1>
+    <a href=" https://seawolf-safe.herokuapp.com/auth_general"><button>Home</button></a>
+    <a href=" https://seawolf-safe.herokuapp.com"><button>Log Out</button></a>
+</div>
+<div class="container">
+  <table class='table table-bordered table-hover'>
+    <thead>
+      <tr class='active'>
+          <td>USERNAME</td>
+          <td>HEADER</td>
+          <td>MESSAGE</td>
+          <td>DATE SENT</td>
+
+      </tr>
+    </thead>
+    <tbody>
+      <% results.forEach((res) => { %>
+         <tr class='active'>
+             <td><%= res.username %></td>//implementing embedded javascript to display query request in table format 
+             <td><%= res.header %></td>
+             <td><%= res.message %></td>
+             <td><%= res.datesub %></td> 
+         </tr>
+      <% }); %>
+    </tbody>
+  </table>
+  
+  </div>
+
+</body>
+</html>

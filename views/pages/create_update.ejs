@@ -1,0 +1,39 @@
+<html>
+<head>
+      <% include ../partials/header.ejs %>
+</head>
+
+<body> 
+	<div class = 'outer'>
+		<div class = 'header'>
+<h1>THE SSU COVID-19 REGISTRY</h1>
+<h2>Campus Wide Updates</h2>
+<a href="https://seawolf-safe.herokuapp.com/"><button>Log Out</button></a>
+<a href="https://seawolf-safe.herokuapp.com/auth_admin"><button>Home</button></a>
+		</div>
+
+<div class = 'menuAll'>
+<ul>
+<!--<li><a href="underConstruction.html">USE CASE 3</a></li>-->
+
+</ul>
+</div>
+
+<div class = 'content-paragraph'>
+
+<h2>Input Message Here</h2>
+
+<form action="input" method="POST">
+	<div class = "inputHeader">  
+    <input type="text" name="username" placeholder="Username" required>
+	<input type="text" name="header" placeholder="Enter Header" required>
+    </div>
+   <label><textarea id="outbound_mess" placeholder="Enter message" name="campus_update">
+    </textarea></label>
+	<label><input type="submit" value="Send Message">
+	<input type="reset" name="form1"></label>
+</form>
+	
+</div>
+</body>
+</html>
