@@ -1,5 +1,4 @@
 const Archive_Controller = require('../controllers/arhive_Controller');
-const archive_controller = require('../controllers/auth_userController');
 
 const archive_Route = require('koa-router')({
 });
